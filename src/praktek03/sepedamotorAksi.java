@@ -11,5 +11,14 @@ public class sepedamotorAksi {
         a.setHarga(1000);
         
         a.cetakInfo();
+        
+        System.out.println("Warnanya \t: ");
+        System.out.println(a.getWarna());
+        System.out.println("Merknya \t: ");
+        System.out.println(a.getMerk());
+        System.out.println("Jenis Motornya \t: ");
+        System.out.println(a.getJenis_motor());
+        System.out.println("Harganya \t: ");
+        System.out.println(a.getHarga());
     }
 }
