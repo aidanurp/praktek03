@@ -7,4 +7,14 @@ public class motormatic extends sepedamotor{
     void throttle(){
         System.out.println("gearbox manual");
     }
+
+    public String getJenis_transmisi() {
+        return jenis_transmisi;
+    }
+
+    public void setJenis_transmisi(String jenis_transmisi) {
+        this.jenis_transmisi = jenis_transmisi;
+    }
+    
+    
 }
