@@ -1,10 +1,10 @@
 package praktek03;
 
 public class sepedamotor {
-    String warna;
-    String merk;
-    String jenis_motor;
-    double harga; 
+    private String warna;
+    private String merk;
+    private String jenis_motor;
+    private double harga; 
     
     void cetakInfo(){
         System.out.println("Warna \t: "+warna+"\n"+
